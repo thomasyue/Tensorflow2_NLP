@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/nlp_implement.iml" filepath="$PROJECT_DIR$/.idea/nlp_implement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tf_tutorial/.idea/tf_tutorial.iml" filepath="$PROJECT_DIR$/../tf_tutorial/.idea/tf_tutorial.iml" />
+    </modules>
+  </component>
+</project>
