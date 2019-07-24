@@ -19,25 +19,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../tf_tutorial/VAE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="636">
               <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autoencoder architectures/simple_autoencoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1838">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -292,12 +280,12 @@
       <workItem from="1563283287657" duration="7810000" />
       <workItem from="1563374351909" duration="12883000" />
       <workItem from="1563396807478" duration="22487000" />
-      <workItem from="1563997695053" duration="1855000" />
+      <workItem from="1563997695053" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45035000" />
+    <option name="totallyTimeSpent" value="45313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-24" width="1920" height="1011" extended-state="6" />
@@ -436,16 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tf_tutorial/VAE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#1#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tf_tutorial/手写数字问题实战.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -458,10 +436,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autoencoder architectures/simple_autoencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1838">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="490">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tf_tutorial/VAE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
