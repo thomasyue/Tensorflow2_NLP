@@ -3,7 +3,6 @@ self implementation of <attentions is all you need> using tensorflow 2.0
 haven't run any unit test or debug yet.
 parameters are pretty much the same as the original paper.
 """
-
 import tensorflow as tf
 
 

@@ -165,6 +165,9 @@ def main():
     optimizer = tf.optimizers.Adam(learning_rate=lr)
 
     for epoch in range(epochs):
+
+
+
         for step, (x, y) in enumerate(db):
 
             with tf.GradientTape() as tape:
