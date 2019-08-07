@@ -60,7 +60,7 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         batch_size = tf.shape(q[0]) # [None, ...] extract None in this case
 
         q = self.wq(q)  # [None, seq_len_q, d_model]
-        k = self.wk(k)    # [None, seq_len_k, d_model]
+        k = self.wk(k)  # [None, seq_len_k, d_model]
         v = self.wv(v)  # [None, seq_len_v, d_model]
 
         q = self.split_head(q, batch_size)  # [None, num_heads, seq_len_q, depth]
@@ -89,6 +89,7 @@ class MultiHeadAttention(tf.keras.layers.Layer):
 def create_padding_mask(x):
     mask = tf.cast(tf.math.equal(x, 0), dtype=tf.float32)
     return mask[:, tf.newaxis, tf.newaxis, :]
+
 
 def create_look_ahead_mask(x):
     seq_len = tf.shape(x)[1]
